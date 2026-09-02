@@ -1,0 +1,99 @@
+# Document AI Capability – Lifecycle Map
+
+## Use Case
+
+Enterprise Document AI Capability
+
+The goal of this use case is to automate enterprise document processing, including document ingestion, classification, data extraction, validation, and human review. This helps reduce manual effort, improve data accuracy, and support business processes such as data remediation and retail operations.
+
+## Lifecycle
+
+### 1. Ideation
+
+What happens:
+
+Identify the problem with manually processing enterprise documents and the need for automated ingestion, extraction, validation, and review.
+
+Artifact Produced:
+
+One-page Problem Statement
+
+### 2. Intake
+
+What happens:
+
+Collect information about the use case, document sources, users, business requirements, and the expected level of automation.
+
+Artifact Produced:
+
+Completed Intake Form
+
+### 3. Risk Tiering
+
+What happens:
+
+Assess the risks involved, including document data handling, incorrect data extraction, automation decisions, and human review requirements.
+
+Artifact Produced:
+
+Documented Risk Tier and Rationale
+
+### 4. Design
+
+What happens:
+
+Design the Document AI architecture and workflow for document ingestion, classification, extraction, validation, exception handling, and Human-in-the-Loop review.
+
+Artifact Produced:
+
+Architecture Diagram and ADRs
+
+### 5. Build
+
+What happens:
+
+Develop and integrate the Document AI components and workflows required to process enterprise documents.
+
+Artifact Produced:
+
+Working Code and Test Results
+
+### 6. Validate
+
+What happens:
+
+Validate the accuracy of document classification and data extraction and check whether exceptions are correctly sent for human review.
+
+Artifact Produced:
+
+Independent Validation Report
+
+### 7. Deploy
+
+What happens:
+
+Deploy the Document AI solution so it can support enterprise data remediation and retail operations use cases.
+
+Artifact Produced:
+
+Deployment Approval and Rollout Plan
+
+### 8. Monitor
+
+What happens:
+
+Monitor extraction accuracy, exceptions, system performance, and feedback from human reviewers after deployment.
+
+Artifact Produced:
+
+Monitoring Dashboard and Incident Log
+
+### 9. Retire
+
+What happens:
+
+When the solution or model is no longer required, safely retire it and make sure the document data is handled properly.
+
+Artifact Produced:
+
+Decommission Record and Data-Handling Confirmation
