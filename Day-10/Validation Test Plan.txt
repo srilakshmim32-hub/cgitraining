@@ -1,0 +1,63 @@
+Validation Test Plan – GenAI Resume Screening Tool
+Use Case
+
+The proposed GenAI tool screens incoming resumes and recommends either:
+
+Advance – The candidate should move forward in the recruitment process.
+Reject – The candidate should not move forward.
+
+Before deploying the tool, it is important to validate that its recommendations are accurate, fair, and reliable across different types of resumes.
+
+1. Validate Recommendation Accuracy
+
+The first step is to check whether the tool is making appropriate Advance or Reject recommendations.
+
+The AI's recommendations should be compared with decisions made by experienced human recruiters using a representative set of resumes.
+
+Edge Case
+
+A highly qualified candidate may use different terminology to describe their skills than the terminology expected by the model.
+
+For example, the resume may describe relevant experience using different wording but still meet the job requirements. The tool should not reject a strong candidate simply because the exact keywords are missing.
+
+2. Validate Fairness and Consistency
+
+The tool should be tested to ensure that recommendations are based on relevant qualifications, skills, and experience rather than irrelevant personal information.
+
+Candidates with similar qualifications should receive consistent recommendations.
+
+Edge Case
+
+Two resumes contain the same skills and experience, but details such as the candidate's name are different.
+
+The recommendation should remain consistent and should not change because of irrelevant information.
+
+3. Validate Performance with Different Resume Types
+
+The tool should be tested using different resume formats and real-world scenarios.
+
+This includes resumes with different structures, incomplete information, employment gaps, or unusual formatting.
+
+Edge Case
+
+A candidate may have a career gap or a resume with some missing information.
+
+The system should evaluate the available qualifications properly rather than automatically rejecting the candidate because the resume does not follow a standard format.
+
+Who Should Validate the Tool?
+
+The team that developed the tool should not be the only team responsible for validation.
+
+An independent validation team, along with experienced recruitment or HR professionals, should participate in the testing process.
+
+This is important because the development team may already have assumptions about how the system should behave. Independent reviewers can provide a more objective evaluation and may identify issues that the development team missed.
+
+Summary
+
+Before the GenAI resume screening tool goes live, the validation process should focus on:
+
+Accuracy – Are the Advance and Reject recommendations appropriate?
+Fairness – Are similar candidates treated consistently?
+Robustness – Can the system handle different and unusual resume formats?
+
+The validation should also be performed independently to ensure that the results are objective and trustworthy.
